@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+Install and load the swirl package
+```{r echo = FALSE}
+install.packages("swirl")
+library('swirl')
+```
+
+
+Install relevant course
+```{r echo = FALSE}
+install_course("Advanced R Programming")
+```
+
+Call swirl()
+```{r echo = FALSE}
+swirl()
+```
+
+install_course("Advanced R Programming")
